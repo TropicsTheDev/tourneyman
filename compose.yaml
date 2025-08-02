@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: ./backend/
+    volumes:
+      - ./backend/src/:/app
+  frontend:
+    build:
+      context: ./frontend/

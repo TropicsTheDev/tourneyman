@@ -1,5 +1,10 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
+  // https://nuxt.com/docs/guide/concepts/typescript,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowArbitraryExtensions": true,
+    "types": ["@xstate/store"]
+  },
   "files": [],
   "references": [
     {

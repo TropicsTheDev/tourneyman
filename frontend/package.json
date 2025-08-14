@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@xstate/store": "^3.8.5",
     "nuxt": "^4.0.1",
     "vue": "^3.5.18",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "wave-ui": "^3.25.3"
   }
 }
